@@ -27,7 +27,7 @@ I'm not claiming this approach is the best way to create a generic blog, as alwa
 #### 1 - Install Jekyll and create the blog
 If you have Ruby, RubyGems and NodeJs installed (if not check [this](http://jekyllrb.com/docs/installation/)):
 
-{% highlight shell %}
+{% highlight bash %}
 ~ $ gem install jekyll
 ~ $ jekyll new myblog
 ~ $ cd myblog
@@ -43,7 +43,7 @@ Once you have shaped it at your taste...
 
 First of all, we need a [Github account](https://github.com/) and create a repository called `yourusername.github.io` (must be called exactly like that). Then update your code to that remote repository:
 
-{% highlight shell %}
+{% highlight bash %}
 ~/myblog $ git init
 ~/myblog $ git commit -m "first commit"
 ~/myblog $ git remote add origin https://github.com/yourusername/yourusername.github.io.git
