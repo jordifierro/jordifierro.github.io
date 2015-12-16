@@ -19,3 +19,4 @@ github_username:  jordifierro
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
