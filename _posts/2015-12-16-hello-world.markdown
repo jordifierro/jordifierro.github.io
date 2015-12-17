@@ -24,7 +24,7 @@ This blog is powered by Jekyll and GitHub Pages. [Jekyll](http://jekyllrb.com) i
 
 I'm not claiming this approach is the best way to create a generic blog, as always it depends on your constraints. However, for my particular case I can say it's perfect. Try it for yourself!
 
-#### 1 - Install Jekyll and create the blog
+#### 1 - Install Jekyll and create your blog
 If you have Ruby, RubyGems and NodeJs installed (if not check [this](http://jekyllrb.com/docs/installation/) first):
 
 {% highlight bash %}
