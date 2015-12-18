@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "UVa 11492"
+title:  "UVa 11492 - Babel"
+permalink: uva-11492-babel
 date:   2015-12-18 11:01:00 +0100
 categories: algorithm uva
 ---
@@ -15,7 +16,7 @@ to find some easy problems to start.
 I'm recently uploading my old solved exercices to GitHub and I'll use it
 to post about the more interesting ones. Here I go with the first:
 
-### 11492 - Babel
+### The problem
 Difficulty: Medium.
 
 As always, I encourage to try to solve the problem first and
