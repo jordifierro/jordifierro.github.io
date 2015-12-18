@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Hello world!"
-permalink: hello-world
+title:  "Hello blog!"
+permalink: hello-blog
 date:   2015-12-16 14:44:41 +0100
 ---
 
