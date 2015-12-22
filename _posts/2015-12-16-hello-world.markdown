@@ -9,14 +9,16 @@ I was thinking on introduce myself in this first post... But I thought: "There i
 
 This blog is powered by Jekyll and GitHub Pages. [Jekyll](http://jekyllrb.com) is an static site generator that allows you to create a blog easily. [GitHub Pages](https://pages.github.com) is a hosting service for static content that allows you to deploy with a simple git push. Furthermore, Jekyll comes integrated with GitHub Pages so you can push the source code to GitHub and it automatically generates and deploys it.
 
-### Less
+![Jekyll + GitHub Pages](/assets/images/jekyll_github.png)
+
+#### Less
 
 * Time: Really fast to setup and deploy.
 * Money: GitHub gives a free page site to each user.
 * Headaches: There's no dynamic content, code or database to take care of.
 * Latency: Static sites are always faster than dynamic ones.
 
-### More
+#### More
 
 * Knowledge: You will learn because you program it (as you want), generate the content with markdown language and use git.
 * Security: Neither database nor running code on server.
@@ -24,7 +26,9 @@ This blog is powered by Jekyll and GitHub Pages. [Jekyll](http://jekyllrb.com) i
 
 I'm not claiming this approach is the best way to create a generic blog, as always it depends on your constraints. However, for my particular case I can say it's perfect. Try it for yourself!
 
-#### 1 - Install Jekyll and create your blog
+## How to create your own blog
+
+### 1 - Install Jekyll and create the blog
 If you have Ruby, RubyGems and NodeJs installed (if not check [this](http://jekyllrb.com/docs/installation/) first):
 
 {% highlight bash %}
@@ -38,7 +42,7 @@ At this point, you must be able to see a default template at `http://localhost:4
 
 Once you have shaped it at your taste...
 
-#### 2 - Deploy the code to github pages
+### 2 - Deploy the code to github pages
 
 First of all, we need a [GitHub account](https://github.com/) and create a repository called `yourusername.github.io` (must be called exactly like that). Then upload your blog source code to that remote repository:
 
