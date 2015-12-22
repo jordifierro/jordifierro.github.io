@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Hello blog!"
-permalink: hello-blog
 date:   2015-12-16 14:44:41 +0100
+categories: blog
 ---
 
 I was thinking on introduce myself in this first post... But I thought: "There is no better way to start than writing a meta-post!". Therefore, this is about how this blog has been created (I've also written some words about myself [here]({{site.url}}/about)).

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "UVa 11492 - Babel"
-permalink: uva-11492-babel
 date:   2015-12-18 11:01:00 +0100
 categories: algorithm uva
 ---
