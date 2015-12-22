@@ -3,6 +3,7 @@ layout: post
 title:  "UVa 11492 - Babel"
 date:   2015-12-18 11:01:00 +0100
 categories: algorithm uva
+comments: true
 ---
 
 Hi again! Today I'm going to speak about algorithmics.
