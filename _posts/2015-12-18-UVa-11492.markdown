@@ -25,8 +25,10 @@ Here you have the
 [problem statement](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2487)
 for this one.
 
+![The Tower of Babel by Pieter Bruegel the Elder (1563)](/assets/images/babel_tower.jpg)
+
 First of all we must think on the problem goal. In that case we are asked to
-find a path through two languages with the restriction of minimum words length
+find a path between two languages with the restriction of minimum words length
 and that two consecutive words cannot have the same first letter.
 This problem can be solved structuring the input data as a graph and finding
 the shortest path between the specified nodes. So let's do it!
