@@ -30,7 +30,7 @@ That's why they're called [permalinks](https://en.wikipedia.org/wiki/Permalink)
 I've decided to keep mine as simple as possible
 adding this to my `_config.yml` file:
 
-{% highlight markdown %}
+{% highlight html %}
 permalink: /:title
 {% endhighlight %}
 
