@@ -2,14 +2,19 @@
 
   <div class="wrapper">
       <div class="footer-col-wrapper">
-          {% if site.github_username %}
           <div class="footer-col footer-col-1">
+            {% include icon-rss.html %}
+            </div>
+
+
+          {% if site.github_username %}
+          <div class="footer-col footer-col-2">
             {% include icon-github.html username=site.github_username %}
             </div>
           {% endif %}
 
           {% if site.twitter_username %}
-          <div class="footer-col footer-col-2">
+          <div class="footer-col footer-col-3">
             {% include icon-twitter.html username=site.twitter_username %}
         </div>
           {% endif %}
