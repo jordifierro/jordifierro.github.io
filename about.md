@@ -10,4 +10,6 @@ My other passion is algorithmics. I've been learning and teaching and also parti
 
 Also describes me my devotion for critical thinking, pragmatic programming, lean methodologies, software architecture, create my own projects and learn about almost all, not necessarily in that order.
 
+![Me](/assets/images/about.jpg)
+
 This blog aims to improve my programming and communication skills, my written english (which is not my mother tongue, as you can see), strengthen what I learn and contribute to the community... I would be happy if that can be of any help to other developers. Don't hesitate to contact me if you have any comment, whether good or bad!  
