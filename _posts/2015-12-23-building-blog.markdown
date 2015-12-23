@@ -30,7 +30,7 @@ That's why they're called [permalinks](https://en.wikipedia.org/wiki/Permalink)
 I've decided to keep mine as simple as possible
 adding this to my `_config.yml` file:
 
-{% highlight html %}
+{% highlight ruby %}
 permalink: /:title
 {% endhighlight %}
 
@@ -83,7 +83,7 @@ and get a piece of code like this:
 
 * And finally, modify `/_layouts/default.html`:
 
-{% highlight jekyll %}
+{% highlight html %}
 {% raw %}
     ...
     </body>
@@ -109,7 +109,7 @@ If you choose this one, you can use this brief setup summary:
 * Go to `Installation -> Universal Code`
 and copy the code to `_includes/disqus.html`, replacing these lines:
 
-{% highlight JavaScript %}
+{% highlight ruby %}
 {% raw %}
 this.page.url = PAGE_URL;
 this.page.identifier = PAGE_IDENTIFIER;
@@ -118,7 +118,7 @@ this.page.identifier = PAGE_IDENTIFIER;
 
 with:
 
-{% highlight JavaScript %}
+{% highlight ruby %}
 {% raw %}
 this.page.url = "{{site.url}}{{page.url}}";
 this.page.identifier = "{{page.url}}";
@@ -129,7 +129,7 @@ this.page.identifier = "{{page.url}}";
 * Include the following code where you want to add the comments
 (I've added it at the end of `_layouts/post.html`):
 
-{% highlight JavaScript %}
+{% highlight ruby %}
 {% raw %}
 ...
 
@@ -141,7 +141,7 @@ this.page.identifier = "{{page.url}}";
 
 * And finally, add
 
-{% highlight jekyll %}
+{% highlight ruby %}
 ---
 ...
 comments: true
