@@ -6,9 +6,17 @@ categories: blog
 comments: true
 ---
 
-I was thinking on introduce myself in this first post... But I thought: "There is no better way to start than writing a meta-post!". Therefore, this is about how this blog has been created (I've also written some words about myself [here]({{site.url}}/about)).
+I was thinking on introduce myself in this first post... But I thought: "There is no better way to start than writing a meta-post!". Therefore, this is about how this blog has been created (I've also written some words about myself [here]({{site.url}}/about){:target="_blank"}).
 
-This blog is powered by Jekyll and GitHub Pages. [Jekyll](http://jekyllrb.com) is an static site generator that allows you to create a blog easily. [GitHub Pages](https://pages.github.com) is a hosting service for static content that allows you to deploy with a simple git push. Furthermore, Jekyll comes integrated with GitHub Pages so you can push the source code to GitHub and it automatically generates and deploys it.
+This blog is powered by Jekyll and GitHub Pages.
+[Jekyll](http://jekyllrb.com){:target="_blank"}
+is an static site generator that allows you to create a blog easily.
+[GitHub Pages](https://pages.github.com){:target="_blank"}
+is a hosting service for static content that allows you
+ to deploy with a simple git push.
+ Furthermore, Jekyll comes integrated with GitHub Pages
+ so you can push the source code to GitHub and
+ it automatically generates and deploys it.
 
 ![Jekyll + GitHub Pages](/assets/images/jekyll_github.png)
 
@@ -30,7 +38,7 @@ I'm not claiming this approach is the best way to create a generic blog, as alwa
 ## How to create your own blog
 
 ### 1 - Install Jekyll and create the blog
-If you have Ruby, RubyGems and NodeJs installed (if not check [this](http://jekyllrb.com/docs/installation/) first):
+If you have Ruby, RubyGems and NodeJs installed (if not check [this](http://jekyllrb.com/docs/installation/){:target="_blank"} first):
 
 {% highlight bash %}
 ~ $ gem install jekyll
@@ -39,13 +47,17 @@ If you have Ruby, RubyGems and NodeJs installed (if not check [this](http://jeky
 ~/myblog $ jekyll serve
 {% endhighlight %}
 
-At this point, you must be able to see a default template at `http://localhost:4000`. Time to play with it! (check the [documentation](http://jekyllrb.com/docs/structure/) about the structure too)
+At this point, you must be able to see a default template at `http://localhost:4000`. Time to play with it! (check the [documentation](http://jekyllrb.com/docs/structure/){:target="_blank"}
+about the structure too)
 
 Once you have shaped it at your taste...
 
 ### 2 - Deploy the code to github pages
 
-First of all, we need a [GitHub account](https://github.com/) and create a repository called `yourusername.github.io` (must be called exactly like that). Then upload your blog source code to that remote repository:
+First of all, we need a [GitHub account](https://github.com/){:target="_blank"}
+and create a repository called `yourusername.github.io`
+(must be called exactly like that).
+Then upload your blog source code to that remote repository:
 
 {% highlight bash %}
 ~/myblog $ git init
@@ -55,6 +67,10 @@ First of all, we need a [GitHub account](https://github.com/) and create a repos
 {% endhighlight %}
 
 That's it, your blog must be available at `yourusername.github.io`.
-You can also check the source code of [this  blog](https://github.com/jordifierro/jordifierro.github.io) and [other blogs](https://github.com/jekyll/jekyll/wiki/Sites) like this.
+You can also check the source code of
+[this blog](https://github.com/jordifierro/jordifierro.github.io){:target="_blank"}
+and
+[other blogs](https://github.com/jekyll/jekyll/wiki/Sites){:target="_blank"}
+like this.
 
 Thanks for reading!
