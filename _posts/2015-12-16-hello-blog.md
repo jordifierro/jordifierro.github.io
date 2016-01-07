@@ -73,4 +73,7 @@ and
 [other blogs](https://github.com/jekyll/jekyll/wiki/Sites){:target="_blank"}
 like this.
 
-Thanks for reading!
+If you want to keep improving your blog, read
+[part II](/building-blog/)
+
+Happy blogging!

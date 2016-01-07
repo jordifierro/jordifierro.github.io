@@ -8,7 +8,7 @@ comments: true
 Hi there! I keep developing my personal Jekyll blog,
 and I would like to share with you these firsts steps.
 If you are new to Jekyll blogging,
-start reading [this post](/hello-blog/).
+start reading [part I](/hello-blog/).
 
 ![Building a blog](/assets/images/building_blog.jpg)
 
