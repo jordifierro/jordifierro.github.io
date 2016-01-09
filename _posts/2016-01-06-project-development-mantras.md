@@ -6,11 +6,11 @@ categories: projects
 comments: true
 ---
 
-I love to work on my own projects, bootstrapping
+I love to work in my own projects, bootstrapping
 and do it using lean/agile methodologies.
 I've written down this list for myself
 to stay focused on the most important things,
-like my little journey backpack.
+as it was my little journey backpack.
 
 ![Bootstrapping](/assets/images/bootstrapping.jpg)
 
@@ -19,7 +19,7 @@ like my little journey backpack.
 Less is more. Keep it simple to...
 
 * ...stay lean, so you can launch and pivot quickly.
-* ...make your product easier to use.
+* ...make your product easy to use.
 * ...release a little good product instead of a big mess.
 * ...reach the excellency on what really matters.
 
@@ -75,7 +75,7 @@ Personify your product too.
 
 ## Learn
 
-You always learn, but you learn quickly if you invest time on it.
+You always learn, but you learn faster if you invest time on it.
 
 Read, practice, enroll to courses, teach, discuss...
 because knowledge is the best thing that will remain
@@ -106,13 +106,13 @@ Be willing to say no.
 
 ## Detail
 
-Every detail matters, try to reach the excellency on everything you do.
+Every detail matters, try to reach the excellency in everything you do.
 
 Some design/development notes:
 
 * Copywrite is design, be aware of it.
 * Think about all the three states when designing: ok, error and empty.
-Use the last one to set the first user expectations.
+Use the last one to set first user expectations.
 
 ## Collaborate
 
