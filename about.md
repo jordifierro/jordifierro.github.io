@@ -15,9 +15,9 @@ I've been learning and teaching and also participating in online contests at [To
 and [Codeforces](http://codeforces.com/profile/jfm){:target="_blank"}
 , using c++. Now I keep reading and practicing whenever I can.
 
-Also describes me my devotion for critical thinking, pragmatic programming,
+It also defines me my devotion for critical thinking, pragmatic programming,
 lean methodologies, software architecture, bootstrapping
-and learn about almost all, not necessarily in that order.
+and learning about almost all, not necessarily in that order.
 
 ![Me](/assets/images/about.jpg)
 
