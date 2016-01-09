@@ -23,11 +23,11 @@ Today I'm going to write about:
 
 With this blog system, post link format is centrally managed.
 Thus, you could deal with it later...
-if it wasn't that when you change your linkage system you broke the old links.
+if it wasn't that when you change your linkage system you will broke the old links.
 That's why they're called [permalinks](https://en.wikipedia.org/wiki/Permalink){:target="_blank"}
 (permanent links).
 
-I've decided to keep mine as simple as possible
+I've decided to keep my permalinks format as simple as possible
 adding this to my `_config.yml` file:
 
 {% highlight ruby %}
@@ -45,9 +45,9 @@ but remember to do it before start spreading links!
 
 ### Domain
 
-Domain is also part of the permalink (an important one, actually),
+Domain is also a part of the permalink (an important one, actually),
 so it makes no sense to define the link format
-but start blogging with a provisional domain.
+and start blogging with a provisional domain.
 
 * Buy it at your favorite domain website.
 * Define it as an alias for `yourusername.github.io`
@@ -101,7 +101,7 @@ After a while, it should start appearing data on your analytics dashboard.
 And finally, the comments system.
 I've chosen [Disqus](https://disqus.com){:target="_blank"}
 because it's highly used and very easy to integrate and manage,
-but you are free to use other services or even not add comments at all.
+but you are free to use other services or even not to add comments at all.
 
 If you choose this one, you can use this brief setup summary:
 
@@ -148,7 +148,7 @@ comments: true
 ---
 {% endhighlight %}
 
-on the posts or pages you want to make the comment system available and
-set to false or don't add it at all on the other elements.
+on the posts or pages you want to make the comment system available.
+Set to false or don't add it at all elsewhere.
 
 And that's it! More blog improvements coming soon...
