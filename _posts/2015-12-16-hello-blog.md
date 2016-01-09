@@ -12,8 +12,8 @@ This blog is powered by Jekyll and GitHub Pages.
 [Jekyll](http://jekyllrb.com){:target="_blank"}
 is an static site generator that allows you to create a blog easily.
 [GitHub Pages](https://pages.github.com){:target="_blank"}
-is a hosting service for static content that allows you
- to deploy with a simple git push.
+is a hosting service for static content that permits
+ the deployment with a simple git push.
  Furthermore, Jekyll comes integrated with GitHub Pages
  so you can push the source code to GitHub and
  it automatically generates and deploys it.
@@ -23,13 +23,13 @@ is a hosting service for static content that allows you
 #### Less
 
 * Time: Really fast to setup and deploy.
-* Money: GitHub gives a free page site to each user.
+* Money: GitHub gives a free page site to every user.
 * Headaches: There's no dynamic content, code or database to take care of.
 * Latency: Static sites are always faster than dynamic ones.
 
 #### More
 
-* Knowledge: You will learn because you program it (as you want), generate the content with markdown language and use git.
+* Knowledge: You will learn because you program it (as you wish), generate the content with markdown language and use git.
 * Security: Neither database nor running code on server.
 * Control: You manage your content changes with git.
 
@@ -38,7 +38,7 @@ I'm not claiming this approach is the best way to create a generic blog, as alwa
 ## How to create your own blog
 
 ### 1 - Install Jekyll and create the blog
-If you have Ruby, RubyGems and NodeJs installed (if not check [this](http://jekyllrb.com/docs/installation/){:target="_blank"} first):
+If you have Ruby, RubyGems and NodeJs installed (otherwise, check [this](http://jekyllrb.com/docs/installation/){:target="_blank"} first):
 
 {% highlight bash %}
 ~ $ gem install jekyll
@@ -74,6 +74,6 @@ and
 like this.
 
 If you want to keep improving your blog, read
-[part II](/building-blog/)
+[part II](/building-blog/).
 
 Happy blogging!
