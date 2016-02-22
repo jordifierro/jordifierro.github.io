@@ -7,7 +7,7 @@ comments: true
 ---
 
 Hi there!
-I have in mind a new project (I'll write about it on future posts)
+I have a new project in mind (I'll write about it on future posts)
 and I've decided to build a lean MVP
 (minimum viable product)
 to start testing and iterating over it as soon as possible.
