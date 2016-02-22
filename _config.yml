@@ -5,6 +5,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# Configuration settings
+gems:
+  - jekyll-gist
+
 # Site settings
 permalink: /:title
 title: jordifierro's
