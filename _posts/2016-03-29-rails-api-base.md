@@ -9,8 +9,9 @@ Hi there! In this post I'm going to summarize the
 [rails-api-base](https://github.com/jordifierro/rails-api-base)
 project. I've posted about this project other times:
 
-* [Rails api base development](http://jordifierro.com/rails-api-base-development)
-* [ApiController and Concerns](http://jordifierro.com/rails-apicontroller-and-concerns)
+* [Rails api base development](/rails-api-base-development)
+* [ApiController and Concerns](/rails-apicontroller-and-concerns)
+* [Api Modules](/rails-api-modules)
 
 so I'll just explain it briefly in this post.
 

@@ -92,13 +92,13 @@ and places the controller specific code, such as an `before_action`,
 under `included`
 (the filters, rescues... only work from a controller class).
 
-Here is the code of each one of the four modules included
- (I'll explain them on another post):
+On [this post](/rails-api-modules)
+you can read more about the four modules included:
 
-* [Authenticator](https://github.com/jordifierro/rails-api-base/blob/master/app/controllers/api/v1/concerns/authenticator.rb)
-* [Error handler](https://github.com/jordifierro/rails-api-base/blob/master/app/controllers/api/v1/concerns/error_handler.rb)
-* [Internationalizator](https://github.com/jordifierro/rails-api-base/blob/master/app/controllers/api/v1/concerns/internationalizator.rb)
-* [Version Expiration Handler](https://github.com/jordifierro/rails-api-base/blob/master/app/controllers/api/v1/concerns/version_expiration_handler.rb)
+* [Authenticator](/rails-api-modules#authenticator)
+* [Error handler](/rails-api-modules#error-handler)
+* [Internationalizator](/rails-api-modules#internationalizator)
+* [Version Expiration Handler](/rails-api-modules#version-expiration-handler)
 
 ### Concern modules testing
 
