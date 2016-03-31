@@ -7,13 +7,13 @@ categories: projects
 
 Hi there! In this post I'm going to summarize the
 [rails-api-base](https://github.com/jordifierro/rails-api-base)
-project. I've posted about this project other times:
+project. I've written about this other times:
 
 * [Rails api base development](/rails-api-base-development)
 * [ApiController and Concerns](/rails-apicontroller-and-concerns)
 * [Api Modules](/rails-api-modules)
 
-so I'll just explain it briefly in this post.
+so I'll just explain it briefly today.
 
 This project is a simple Rails RESTful api that manages notes
 (like pencil annotations) and users with authentication.
@@ -56,10 +56,12 @@ There is more detailed information about each one of these points at the
 github repository of the project.
 
 You can also check its Android client counterpart project called
-[android-base](https://github.com/jordifierro/android-base),
+[android-base](/android-base),
 which shares philosophy with this project
-but for a mobile consumer client application.
+but playing the client role as a mobile application.
 
 If you have any questions about project details
 don't hesitate to ask. Contributions are welcome too!
 And of course you are free to use the project :)
+
+[(Source code)](https://github.com/jordifierro/rails-api-base)
