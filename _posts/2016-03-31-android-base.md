@@ -3,6 +3,7 @@ layout: post
 title:  "Android Base"
 date:   2016-03-31 09:00:00 +0100
 categories: projects
+comments: true
 ---
 
 I'm glad to present you my new project:

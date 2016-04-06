@@ -3,6 +3,7 @@ layout: post
 title:  "Rails Api Base"
 date:   2016-03-29 17:00:00 +0100
 categories: projects
+comments: true
 ---
 
 Hi there! In this post I'm going to summarize the

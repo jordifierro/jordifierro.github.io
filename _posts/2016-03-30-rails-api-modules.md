@@ -3,6 +3,7 @@ layout: post
 title:  "Rails api modules"
 date:   2016-03-30 11:00:00 +0100
 categories: projects
+comments: true
 ---
 
 This post is about the implementation details of the 4 small modules
