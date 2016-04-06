@@ -12,7 +12,7 @@ I've made during the development of
 This post is about how I've structured the code
 that concerns about controllers common behavior
 (I'll only speak about controllers,
- but the concept can be applied to models or whatever).
+ but the concept can be applied to models too).
 
 ### ApiController versioning
 
@@ -23,7 +23,7 @@ Nevertheless, when developing an api we must care about code versioning too.
 As is normal, almost all of this common code
 is related with the input parameters
 or the output format and affects directly to the api version contracts.
-Because of that I've decided that it needs to be versioned,
+Because of that, I've decided that it needs to be versioned,
 like the other controllers.
 That's the reason to create ApiController,
 which has the same purpose as ApplicationController,
@@ -31,7 +31,7 @@ but it's placed under `app/controllers/api/v1` folder.
 Hence, we'll use one or the other
 depending on if the generic code must be versioned or not.
 
-So finally, the inheritance path of a ordinary controller looks like this:
+So finally, the inheritance path of an ordinary controller will look like this:
 
 {% highlight ruby %}
                                     < ActionController::API (rails code)
@@ -40,7 +40,8 @@ So finally, the inheritance path of a ordinary controller looks like this:
 Api::V1::OrdinaryController (versioned code)
 {% endhighlight %}
 
-And this is the file tree of rails-api-base controllers:
+And this is the file tree of
+[rails-api-base](https://github.com/jordifierro/rails-api-base) controllers:
 
 {% highlight sh %}
 app
@@ -64,16 +65,16 @@ app
 
 ### ActiveSupport::Concern
 
-But what are those concerns?
-In order to don't mess the ApiController code
+But what are those "concerns"?
+In order to don't mess the ApiController
 with too much and unrelated code,
-that code is structured by independent modules using the
+it can be structured by independent modules using the
 [Rails ActiveSupport::Concern](http://api.rubyonrails.org/classes/ActiveSupport/Concern.html)
-concept.
+module type.
 Each file under `/concerns` implements one of these modules,
 whom are included in the ApiController, thus, to all api controllers.
 Concerns let you define variables, methods...
-as usual, but also include behavior as the controller itself
+as usual, but also include behavior to the controller itself
 (e.g.: define a `before_action` or `rescue_from`).
 That is all we need to refactor the ApiController.
 
@@ -90,7 +91,7 @@ The unique remarkable thing is that
 the module extends from `ActiveSupport::Concern`
 and places the controller specific code, such as an `before_action`,
 under `included`
-(the filters, rescues... only work from a controller class).
+(the filters, rescues... code that only works from inside a controller class).
 
 On [this post](/rails-api-modules)
 you can read more about the four modules included:
@@ -102,12 +103,12 @@ you can read more about the four modules included:
 
 ### Concern modules testing
 
-And finally last but not least: concern modules testing using
+Finally, last but not least: concern modules testing using
 [rspec](http://rspec.info/).
 
 - <b> How do we test a controller module that affects all controllers?</b>
 - We must define a fake controller that inherits from ApiController
-and check that the behavior included by the tested module
+and check that the behavior included by the target module
 works as expected.
 
 Here is an example:
@@ -126,7 +127,7 @@ Usually, the drawn route would be the following one:
 routes.draw { get 'fake_method_name' => 'anonymous#fake_method_name' }
 {% endhighlight %}
 
-but from Rspec version 3 it launches the following error
+but from Rspec version 3 it raises the following error
 when the inherited controller is not in the `app/controllers/` folder root:
 
 {% highlight console %}
@@ -139,8 +140,8 @@ when the inherited controller is not in the `app/controllers/` folder root:
      # ./spec/controllers/api/v1/concerns/authenticator_spec.rb:23:in `block (3 levels) in <module:V1>'
 {% endhighlight %}
 
-To fix that I changed the route parameters to the controller path
-and call it with its name instead of 'anonymous'
+To fix that I've changed the route parameters to the controller path
+and called it with its name instead of 'anonymous'
 (i.e.: if `Api::V1::SomeController` the route is `'api/v1/some#method_name'`):
 
 {% highlight ruby %}
