@@ -24,7 +24,7 @@ Today I'm going to write about:
 With this blog system, post link format is centrally managed.
 Thus, you could deal with it later...
 if it wasn't that when you change your linkage system you will broke the old links.
-That's why they're called [permalinks](https://en.wikipedia.org/wiki/Permalink){:target="_blank"}
+That's why they're called [permalinks](https://en.wikipedia.org/wiki/Permalink)
 (permanent links).
 
 I've decided to keep my permalinks format as simple as possible
@@ -39,7 +39,7 @@ increase the readability of the urls
 (I can keep using date and categories for other purposes).
 
 You can use the format that pleases you most
-(check the [main options](http://jekyllrb.com/docs/permalinks/){:target="_blank"}),
+(check the [main options](http://jekyllrb.com/docs/permalinks/)),
 so take your time to decide which is better for your needs,
 but remember to do it before start spreading links!
 
@@ -99,13 +99,13 @@ After a while, it should start appearing data on your analytics dashboard.
 ### Comments
 
 And finally, the comments system.
-I've chosen [Disqus](https://disqus.com){:target="_blank"}
+I've chosen [Disqus](https://disqus.com)
 because it's highly used and very easy to integrate and manage,
 but you are free to use other services or even not to add comments at all.
 
 If you choose this one, you can use this brief setup summary:
 
-* Sign up at [Disqus](https://disqus.com){:target="_blank"} and create your site.
+* Sign up at [Disqus](https://disqus.com) and create your site.
 * Go to `Installation -> Universal Code`
 and copy the code to `_includes/disqus.html`, replacing these lines:
 

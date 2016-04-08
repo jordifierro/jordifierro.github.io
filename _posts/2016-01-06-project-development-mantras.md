@@ -89,8 +89,7 @@ Plan the development with short iterations to improve your productivity and
 deliver more often (remember to celebrate your little achievements).
 
 Split and write down your tasks and use techniques like
-[Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique){:target="_blank"}
-.
+[Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique).
 
 ## Priority
 
@@ -132,8 +131,8 @@ too ;)
 Here are some related books and resources
 which I highly recommend:
 
-* [Getting Real](https://gettingreal.37signals.com/){:target="_blank"}
-* [Agile Samurai](https://pragprog.com/book/jtrap/the-agile-samurai){:target="_blank"}
-* [Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer){:target="_blank"}
-* [Agile Manifesto](http://agilemanifesto.org/principles.html){:target="_blank"}
-* [Lean Startup](http://theleanstartup.com/){:target="_blank"}
+* [Getting Real](https://gettingreal.37signals.com/)
+* [Agile Samurai](https://pragprog.com/book/jtrap/the-agile-samurai)
+* [Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer)
+* [Agile Manifesto](http://agilemanifesto.org/principles.html)
+* [Lean Startup](http://theleanstartup.com/)

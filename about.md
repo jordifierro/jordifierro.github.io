@@ -11,8 +11,8 @@ and now I'm working as freelance on my own projects:
 I'm also a green rails backend developer.
 
 My other passion is algorithmics.
-I've been learning and teaching and also participating in online contests at [Topcoder](https://www.topcoder.com/members/jfm/){:target="_blank"}
-and [Codeforces](http://codeforces.com/profile/jfm){:target="_blank"}
+I've been learning and teaching and also participating in online contests at [Topcoder](https://www.topcoder.com/members/jfm/)
+and [Codeforces](http://codeforces.com/profile/jfm)
 , using c++. Now I keep reading and practicing whenever I can.
 
 It also defines me my devotion for critical thinking, pragmatic programming,
