@@ -5,15 +5,15 @@ permalink: /about/
 ---
 
 Hi! I'm a software engineer living in Barcelona.
-I've some experience with Android development and mobile architecture
-and now I'm working as freelance on my own projects:
-[Taddapp](/taddapp/) is one of them.
-I'm also a green rails backend developer.
+I work mostly on Android projects, but I've also some experience in
+Rails backend development and iOS too.
 
 My other passion is algorithmics.
-I've been learning and teaching and also participating in online contests at [Topcoder](https://www.topcoder.com/members/jfm/)
-and [Codeforces](http://codeforces.com/profile/jfm)
-, using c++. Now I keep reading and practicing whenever I can.
+I've been learning and teaching and also participating in online contests
+such as [Topcoder](https://www.topcoder.com/members/jfm/)
+and [Codeforces](http://codeforces.com/profile/jfm), using c++.
+ Now I keep reading and [practicing](https://github.com/jordifierro/uva)
+ whenever I can.
 
 It also defines me my devotion for critical thinking, pragmatic programming,
 lean methodologies, software architecture, bootstrapping
@@ -22,7 +22,30 @@ and learning about almost all, not necessarily in that order.
 ![Me](/assets/images/about.jpg)
 
 This blog aims to improve my programming and communication skills,
-my written english (which is not my mother tongue, as you can see),
-strengthen what I learn and contribute to the community...
+my written english, strengthen what I learn and contribute to the community...
 I would be happy if that can be of any help to other developers.
 Don't hesitate to contact me if you have any comment, whether good or bad!  
+
+### Projects
+
+* [Taddapp](/taddapp) - Add text to image Android application.
+* [rails-api-base](/rails-api-base) - Rails 5 RESTful api template.
+* [android-base](/android-base) - Android Clean Architecture
+MVP RESTful client template app.
+* [UVa solutions](https://github.com/jordifierro/uva) - Some UVa online judge
+algorithm problemset solutions.
+
+### Bookshelf
+
+* [The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) -
+Master class to achieve the excellence as programmer.
+* [Agile Samurai](http://www.goodreads.com/book/show/8248700-the-agile-samurai) -
+How to use agile philosophy and techniques.
+* [Algorithms](http://www.goodreads.com/book/show/138563.Algorithms) -
+Algorithms fundamentals.
+* [Programming challenges](http://www.goodreads.com/book/show/1041695.Programming_Challenges) -
+Programming contest training manual.
+* [Getting Real](https://gettingreal.37signals.com/) - The ultimate guide
+to application bootstrapping.
+* [Lean Startup](http://theleanstartup.com/book) - About the importance of
+measure, learn and stay lean.
