@@ -9,10 +9,12 @@ comments: true
 I'm glad to present you my new project:
 [android-base](https://github.com/jordifierro/android-base)
 
-It's almost finished (there are still some tasks to be done)
-and I haven't posted anything about it yet.
 This post is just a brief summary,
-I'll link here the specific posts once I publish them.
+but here are more posts about this project, specifically about testing:
+
+* [View unit testing recipe](/android-view-unit-testing)
+* [Http Interceptor testing recipe](/android-http-interceptor-testing)
+* [Restclient repository testing recipe](/android-restclient-repository-testing)
 
 Android Base is a mobile Android application template
 where you can manage notes (like pencil annotations)
@@ -60,14 +62,16 @@ of the project.
 Here I leave you a list the most outstanding points
 you'll find there explained in detail:
 
+* App boilerplate (users, settings, info...)
 * Notes app example.
 * MVP Clean Architecture.
 * Dependency Inversion (Dagger 2 and Butterknife).
 * Reactive Programming (RxJava and RxAndroid).
 * RESTful client with version, language and authentication (Retrofit).
-* Whole app unit tested (Espresso, Mockito, Dagger 2 and MockWebServer).
-* Other patterns and Android good practices.
+* Full unit testing coverage (Espresso, Mockito and Dagger 2).
+* Other patterns and good practices.
 * Continuous Integration system.
+* Scripts to reset project.
 
 If you have any doubts or suggestions don't hesitate to leave a comment.
 I'm looking for contributors too ;)

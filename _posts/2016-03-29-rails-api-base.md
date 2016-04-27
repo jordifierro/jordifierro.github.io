@@ -10,9 +10,9 @@ Hi there! In this post I'm going to summarize the
 [rails-api-base](https://github.com/jordifierro/rails-api-base)
 project. I've written about this other times:
 
-* [Rails api base development](/rails-api-base-development)
 * [ApiController and Concerns](/rails-apicontroller-and-concerns)
 * [Api Modules](/rails-api-modules)
+* [Rails api base development](/rails-api-base-development)
 
 so I'll just explain it briefly today.
 
@@ -42,15 +42,16 @@ Here is a summary of the most important characteristics:
 * Api versioning.
 * Notes app example.
 * Patterns and good practices.
-* Users and token authentication.
+* Users management.
 * Version expiration.
 * Internationalization.
 * Secret api key.
 * Rspec testing.
 * Setup scripts.
 * Postgres database.
-* Latest versions.
+* Versions up-to-date.
 * Ruby Style Guide.
+* Json serialization
 
 There is more detailed information about each one of these points at the
 [rails-api-base](https://github.com/jordifierro/rails-api-base)
