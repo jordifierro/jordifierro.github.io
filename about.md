@@ -28,6 +28,7 @@ Don't hesitate to contact me if you have any comment, whether good or bad!
 
 ### Projects
 
+* [Movemate](/movemate) - Your intelligent personal running coach.
 * [Taddapp](/taddapp) - Add text to image Android application.
 * [rails-api-base](/rails-api-base) - Rails 5 RESTful api template.
 * [android-base](/android-base) - Android Clean Architecture
