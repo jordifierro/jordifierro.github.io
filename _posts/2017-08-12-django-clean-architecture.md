@@ -14,6 +14,10 @@ I mirror here that post,
 I hope you will like it!
 Feedback is more than welcome.
 
+_Update: I'm working on a little project using this architecture
+and I've published the code on Github:
+[abidria-api](https://github.com/jordifierro/abidria-api)_
+
 ______
 
 
