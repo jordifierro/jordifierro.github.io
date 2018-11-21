@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 Hi! I'm a software engineer living in Barcelona.
-I work mostly on Android projects, but I've also some experience in
-Rails backend development and iOS too.
+I develop mobile applications (backend: python with Django, Android: kotlin & java, iOS: swift)
+focusing on good architecture and clean code.
 
 My other passion is algorithmics.
 I've been learning and teaching and also participating in online contests
