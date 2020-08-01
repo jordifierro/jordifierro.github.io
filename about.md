@@ -5,7 +5,8 @@ permalink: /about/
 ---
 
 Hi! I'm a software engineer living in Barcelona.
-I develop mobile applications (backend: python with Django, Android: kotlin & java, iOS: swift)
+I develop applications
+(backend: python with Django, Android: kotlin & java, iOS: swift, web: React, also handling infrastructure)
 focusing on good architecture and clean code.
 
 My other passion is algorithmics.
@@ -16,7 +17,7 @@ and [Codeforces](http://codeforces.com/profile/jfm), using c++.
  whenever I can.
 
 It also defines me my devotion for critical thinking, pragmatic programming,
-lean methodologies, software architecture, bootstrapping
+software architecture, bootstrapping
 and learning about almost all, not necessarily in that order.
 
 ![Me](/assets/images/about.jpg)
@@ -28,6 +29,8 @@ Don't hesitate to contact me if you have any comment, whether good or bad!
 
 ### Projects
 
+* [Llaor](/llaor) - Pallarese dictionary.
+* [Tampanada Radio](/tampanada-radio) - Local radio player.
 * [Pachatary](/pachatary) - Experiences social network.
 * [Movemate](/movemate) - Your intelligent personal running coach.
 * [Taddapp](/taddapp) - Add text to image Android application.
@@ -63,3 +66,4 @@ How to design fine-grained systems.
 To learn this powerful search engine.
 * [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) -
 An Uncle Bob's programming masterclass.
+* [Lpic-1](https://www.lpi.org/our-certifications/lpic-1-overview) Not a book but a certificate. Prepare it to refresh linux basics!
