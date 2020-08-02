@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "Pachatary"
+title:  "Pachatary experiences social network"
 date:   2018-11-23 10:00:00 +0100
 categories: project
 comments: true
 ---
 
 ![Pachatary](/assets/images/pachatary_icon.png)
-
-Pachatary is an experiences social network.
 
 Are you planning a trip?
 Or want to discover history, culture and architecture interesting points of your region?
