@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Taddapp"
+title:  "Taddapp text to image editor"
 date:   2016-01-01 20:30:00 +0100
 categories: projects
 comments: true
