@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Llaor"
+title:  "Llaor dictionary"
 date:   2020-07-31 10:00:00 +0100
 categories: project
 comments: true
