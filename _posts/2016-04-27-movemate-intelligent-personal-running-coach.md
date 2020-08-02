@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Movemate"
+title:  "Movemate intelligent personal running coach"
 date:   2016-04-27 10:00:00 +0100
 categories: projects
 comments: true
 ---
 
 [Movemate](http://www.movemateapp.com/)
-is an intelligent personal running coach.
+is an intelligent personal running coach application.
 Presented in the form of a mobile application, it aims to help runners
 training in a more professional way.
 It plans and adapts the workouts to the user's schedule, goals and capabilities.
