@@ -29,11 +29,11 @@ Don't hesitate to contact me if you have any comment, whether good or bad!
 
 ### Projects
 
-* [Llaor](/llaor) - Pallarese dictionary.
+* [Llaor](/llaor-dictionary) - Pallarese dictionary.
 * [Tampanada Radio](/tampanada-radio) - Local radio player.
-* [Pachatary](/pachatary) - Experiences social network.
-* [Movemate](/movemate) - Your intelligent personal running coach.
-* [Taddapp](/taddapp) - Add text to image Android application.
+* [Pachatary](/pachatary-experiences-social-network) - Experiences social network.
+* [Movemate](/movemate-intelligent-personal-running-coach) - Your intelligent personal running coach.
+* [Taddapp](/taddapp-text-to-image-editor) - Add text to image Android application.
 * [rails-api-base](/rails-api-base) - Rails 5 RESTful api template.
 * [android-base](/android-base) - Android Clean Architecture
 MVP RESTful client template app.
