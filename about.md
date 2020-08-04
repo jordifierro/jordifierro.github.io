@@ -29,6 +29,7 @@ Don't hesitate to contact me if you have any comment, whether good or bad!
 
 ### Projects
 
+* [Nyaupi](/nyaupi-raspberry-alarm) - Raspberry handmade house alarm.
 * [Llaor](/llaor-dictionary) - Pallarese dictionary.
 * [Tampanada Radio](/tampanada-radio) - Local radio player.
 * [Pachatary](/pachatary-experiences-social-network) - Experiences social network.
