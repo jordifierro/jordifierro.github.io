@@ -36,7 +36,8 @@ ExoPlayer's retry policy has been overriden to improve network errors recovery.
 
 Project code is available on [Github](https://github.com/jordifierro/tampanada-android)
 and can be easily tunned to create your own radio station (feel free to do it!).
-Application will be soon available on the Google Play Store.
+Application is already available on
+[Google Play Store](https://play.google.com/store/apps/details?id=com.tampanada.radio).
 
 # iOS
 
