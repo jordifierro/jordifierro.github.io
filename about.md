@@ -6,7 +6,8 @@ permalink: /about/
 
 Hi! I'm a software engineer living in Barcelona.
 I develop applications
-(backend: python with Django, Android: kotlin & java, iOS: swift, web: React, also handling infrastructure)
+(backend: python with Django, Android: kotlin & java,
+iOS: swift, web: React, infrastructure: Docker, Jenkins, Nginx, Postgres...)
 focusing on good architecture and clean code.
 
 My other passion is algorithmics.
