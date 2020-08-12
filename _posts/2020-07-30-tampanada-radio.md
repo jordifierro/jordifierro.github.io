@@ -9,7 +9,7 @@ comments: true
 ![Tampanada Radio](/assets/images/tampanadaradio_icon.png)
 
 [Tampanada](https://llaor.com/llengua/diccionari/mots/tampanada)
-means hit in pallarese and gives the name to this little radio station
+means hit in pallarese and gives its name to this little radio station
 created by a group of people from Pallars to spread news and culture of that place,
 always with a touch of humor.
 

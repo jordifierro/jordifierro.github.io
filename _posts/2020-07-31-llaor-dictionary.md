@@ -6,7 +6,8 @@ categories: project
 comments: true
 ---
 
-Llaor means seed in Pallars and this project aims to collect and spred pallarese language and culture.
+[Llaor](https://llaor.com/llengua/diccionari/mots/llaor)
+means seed in Pallars and this project aims to collect and spred pallarese language and culture.
 First step to achieve this has been to dump two dictionary books to a database
 and present that info (more than 2000 word definitions) on a web application.
 Your can visit it at [llaor.com](https://llaor.com). Here you have a preview:

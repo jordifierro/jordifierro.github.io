@@ -16,6 +16,9 @@ and start playing with it :)
 Specifically, I wanted to install a homemade alarm on my front door of my flat
 so I started planning about how could I make that real.
 
+_[Nyaupir](https://llaor.com/llengua/diccionari/mots/nyaupir)
+means to bark in pallarese and it gives its name to this little project._
+
 ## Requirements
 
 First todo thing is define what do you want that alarm to do.
