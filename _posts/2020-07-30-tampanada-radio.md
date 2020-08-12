@@ -8,9 +8,9 @@ comments: true
 
 ![Tampanada Radio](/assets/images/tampanadaradio_icon.png)
 
-Tampanada Radio is a little radio station
-created by a group of people from Pallars
-to spread news and culture of that place,
+[Tampanada](https://llaor.com/llengua/diccionari/mots/tampanada)
+means hit in pallarese and gives the name to this little radio station
+created by a group of people from Pallars to spread news and culture of that place,
 always with a touch of humor.
 
 The [website](http://tampanadaradio.com) offers the visitors
@@ -41,4 +41,14 @@ Application is already available on
 
 # iOS
 
-Coming soon...
+![Main ViewController](/assets/images/tampanadaradio_main_viewcontroller.png)
+
+iOS app was easier to develop in this case because
+AVPlayer already handles background player.
+I used [ModernAVPlayer](https://github.com/noreasonprojects/ModernAVPlayer)
+which is an AVPlayer wrapper that handles retries when network errors occur.
+
+Project code is also available on [Github](https://github.com/jordifierro/tampanada-ios)
+and can be easily tunned to create your own radio station too.
+Application is already available on
+[App Store](https://apps.apple.com/us/app/id1513016413).
