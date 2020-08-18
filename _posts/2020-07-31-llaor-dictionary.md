@@ -12,7 +12,9 @@ First step to achieve this has been to dump two dictionary books to a database
 and present that info (more than 2000 word definitions) on a web application.
 Your can visit it at [llaor.com](https://llaor.com). Here you have a preview:
 
-![Word](/assets/images/llaor_web_word.png)
+![Home](/assets/images/llaor_web_home.png)
+
+![Search](/assets/images/llaor_web_search.png)
 
 Dictionary will be enhanced and other sections are on their way...
 but for the moment, let's talk about the development process of this little dictionary.
@@ -143,11 +145,12 @@ to enable search by full text and also by first letter (to create a cool ABC lis
 There is no mistery in the web.
 It's been done using react and simply try to display api words in a beautiful way,
 both in ABC list and a text search pages.
-The rest of the pages are informative sections that lead to the dictionary.
+The rest of the pages are informative sections.
 You can visit it on [llaor.com](https://llaor.com)
 and view its source code on its [github repo](https://github.com/jordifierro/llaor-web).
 
-![Mobile](assets/images/llaor_mobile.jpg)
+![Home](/assets/images/llaor_mobile_home.png)
+![Letters](/assets/images/llaor_mobile_letters.png)
 
 ## Infrastructure
 
