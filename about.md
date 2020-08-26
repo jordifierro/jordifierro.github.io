@@ -10,12 +10,16 @@ I develop applications
 iOS: swift, web: React, infrastructure: Docker, Jenkins, Nginx, Postgres...)
 focusing on good architecture and clean code.
 
+I'm working as freelancer right now...
+so if you are interested on working with me on your projects
+contact me via [Linkedin](https://www.linkedin.com/in/jordi-fierro-mulero)!
+
 My other passion is algorithmics.
 I've been learning and teaching and also participating in online contests
 such as [Topcoder](https://www.topcoder.com/members/jfm/)
 and [Codeforces](http://codeforces.com/profile/jfm), using c++.
- Now I keep reading and [practicing](https://github.com/jordifierro/uva)
- whenever I can.
+Now I keep reading and [practicing](https://github.com/jordifierro/uva)
+whenever I can.
 
 It also defines me my devotion for critical thinking, pragmatic programming,
 software architecture, bootstrapping
