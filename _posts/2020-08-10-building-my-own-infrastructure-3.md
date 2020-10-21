@@ -25,7 +25,7 @@ Here I paste the instructions to mount it on the server:
 First, add an `A Record` from your domain to the server ip.
 Then, generate an ssl certificate with certbot tool:
 ```bash 
-sudo certbot certonly --manual --preferred-challenges=dns --email=jordifierromulero@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d "*.jordifierro.com" -d jordifierro.com
+sudo certbot certonly --manual --preferred-challenges=dns --email=myemail@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d "*.jordifierro.com" -d jordifierro.com
 ```
 
 This is the `nginx.conf` for this project:
