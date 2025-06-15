@@ -9,7 +9,7 @@ comments: true
 ![Mur's castle inside](/assets/images/infrastructure_castle_inside.png)
 
 In this last post
-(see the [previous one](https://jordifierro.com/building-my-own-infrastructure-3))
+(see the [previous one](https://jordifierro.dev/building-my-own-infrastructure-3))
 I'm going to talk about [Jenkins](https://www.jenkins.io),
 how to configure it and what I use it for.
 
@@ -34,10 +34,10 @@ upstream jenkins {
 
 server {
   listen 127.0.0.1:80;
-  server_name jenkins.jordifierro.com;
+  server_name jenkins.jordifierro.dev;
 
-  ssl_certificate /etc/letsencrypt/live/jordifierro.com/fullchain.pem;
-  ssl_certificate_key /etc/letsencrypt/live/jordifierro.com/privkey.pem;
+  ssl_certificate /etc/letsencrypt/live/jordifierro.dev/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/jordifierro.dev/privkey.pem;
 
   location / {
     proxy_set_header        Host $host:$server_port;
@@ -51,20 +51,20 @@ server {
     proxy_request_buffering off;
     proxy_buffering off; # Required for HTTP-based CLI to work over SSL
     # workaround for https://issues.jenkins-ci.org/browse/JENKINS-45651
-    add_header 'X-SSH-Endpoint' 'jenkins.jordifierro.com:50022' always;
+    add_header 'X-SSH-Endpoint' 'jenkins.jordifierro.dev:50022' always;
   }
 }
 ```
 
 Copy that file to nginx conf and restart nginx:
 ```bash
-sudo cp server-setup/jenkins/nginx.conf /etc/nginx/sites-available/jenkins.jordifierro.com
-sudo rm /etc/nginx/sites-enabled/jenkins.jordifierro.com
-sudo ln -s /etc/nginx/sites-available/jenkins.jordifierro.com /etc/nginx/sites-enabled/
+sudo cp server-setup/jenkins/nginx.conf /etc/nginx/sites-available/jenkins.jordifierro.dev
+sudo rm /etc/nginx/sites-enabled/jenkins.jordifierro.dev
+sudo ln -s /etc/nginx/sites-available/jenkins.jordifierro.dev /etc/nginx/sites-enabled/
 sudo systemctl reload nginx
 ```
 
-I have exposed Jenkins on `jenkins.jordifierro.com`.
+I have exposed Jenkins on `jenkins.jordifierro.dev`.
 Now, I can enter and configure my user.
 
 Once installed, open it and create your user.
@@ -97,7 +97,7 @@ Jobs:
 ### Deploy
 
 This job is almost the same as the script to deploy my blog
-(see the [previous post](https://jordifierro.com/building-my-own-infrastructure-3)).
+(see the [previous post](https://jordifierro.dev/building-my-own-infrastructure-3)).
 The difference here is that I configured it
 to run on git push on master branch of the Github repository of the project.
 To make that enter to `Configure` page of the job and fill the Github forms.
@@ -154,7 +154,7 @@ sudo docker run --name pachatary-nginx-02 -v pachatary-statics-02:/usr/share/ngi
 ```
 
 It is similar to the one used on the
-[previous post](https://jordifierro.com/bulding-my-own-infrastructure-3),
+[previous post](https://jordifierro.dev/bulding-my-own-infrastructure-3),
 but in this case we `cat` the `env.list` file from a secret file.
 I've also added an sleep between the update of the container
 01 and 02 to avoid downtime (HAProxy does the rest).

@@ -8,7 +8,7 @@ comments: true
 
 ![Door lock](/assets/images/infrastructure_door.png)
 
-At the [first post](https://jordifierro.com/building-my-own-infrastructure-1)
+At the [first post](https://jordifierro.dev/building-my-own-infrastructure-1)
 of this series I have explained the background and planned the system.
 
 Once I had a running instance of ubuntu server,
@@ -82,4 +82,4 @@ on [project README](https://github.com/jordifierro/server-setup)
 but almost all of them were installed using `apt install`.
 
 Keep it reading how I
-[built my own infrastructure](https://jordifierro.com/building-my-own-infrastructure-3)!
+[built my own infrastructure](https://jordifierro.dev/building-my-own-infrastructure-3)!

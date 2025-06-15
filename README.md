@@ -1,4 +1,4 @@
-http://jordifierro.com/
+http://jordifierro.dev/
 
 # Setup
 
