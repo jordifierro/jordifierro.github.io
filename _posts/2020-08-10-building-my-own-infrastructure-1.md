@@ -45,7 +45,7 @@ Before starting the migration of any project I though about what I needed and
 how to structure my server.
 These are the projects I had:
 
-* [jordifierro's](https://jordifierro.com) My personal blog.
+* [jordifierro's](https://jordifierro.dev) My personal blog.
 It uses Jekyll framework and was hosted on Github pages
 (which has Jekyll automatic building integrated).
 * [Taddapp](https://taddapp.com) A simple landing page for an Android application.
@@ -90,4 +90,4 @@ I created a server instance there choosing Ubuntu 20.04 (LTS) x64 as image.
 
 Here starts the journey!
 
-Follow me to the [next post](https://jordifierro.com/building-my-own-infrastructure-2)!
+Follow me to the [next post](https://jordifierro.dev/building-my-own-infrastructure-2)!

@@ -135,7 +135,7 @@ then api should return for a `/words/left` GET call:
 ```
 
 That fit in my mind so I got to work.
-I used [clean architecture in django](https://jordifierro.com/django-clean-architecture)
+I used [clean architecture in django](https://jordifierro.dev/django-clean-architecture)
 to work database definitions and transform them to word entities.
 Once that was done, I was able to easily introduce Elasticsearch as search engine
 to enable search by full text and also by first letter (to create a cool ABC list).

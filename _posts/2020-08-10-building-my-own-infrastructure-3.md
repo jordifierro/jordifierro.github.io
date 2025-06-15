@@ -9,14 +9,14 @@ comments: true
 ![Llordà's castle](/assets/images/infrastructure_castle_2.png)
 
 After some security setup I talked about on the
-[previous post](https://jordifierro.com/building-my-own-infrastructure-2)...
+[previous post](https://jordifierro.dev/building-my-own-infrastructure-2)...
 let's start with the applications!
 I will only talk about two of them here (others follow similar pattern):
 My blog web and Pachatary mobile application.
 
 ## My blog
 
-[jordifierro.com](https://jordifierro.com)
+[jordifierro.dev](https://jordifierro.dev)
 
 This is a website created with Jekyll so its statics must be builded from source code.
 
@@ -25,7 +25,7 @@ Here I paste the instructions to mount it on the server:
 First, add an `A Record` from your domain to the server ip.
 Then, generate an ssl certificate with certbot tool:
 ```bash 
-sudo certbot certonly --manual --preferred-challenges=dns --email=myemail@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d "*.jordifierro.com" -d jordifierro.com
+sudo certbot certonly --manual --preferred-challenges=dns --email=myemail@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d "*.jordifierro.dev" -d jordifierro.dev
 ```
 
 This is the `nginx.conf` for this project:
@@ -34,10 +34,10 @@ This is the `nginx.conf` for this project:
 server {
     listen 127.0.0.1:80;
 
-    root /var/www/jordifierro.com/html;
+    root /var/www/jordifierro.dev/html;
     index index.html index.htm index.nginx-debian.html;
 
-    server_name jordifierro.com www.jordifierro.com;
+    server_name jordifierro.dev www.jordifierro.dev;
 
     location / {
             try_files $uri $uri.html $uri/index.html /index.html;
@@ -47,13 +47,13 @@ server {
 
 Setup it:
 ```bash
-sudo cp server-setup/blog/nginx.conf /etc/nginx/sites-available/jordifierro.com
-sudo rm /etc/nginx/sites-enabled/jordifierro.com
-sudo ln -s /etc/nginx/sites-available/jordifierro.com /etc/nginx/sites-enabled/
+sudo cp server-setup/blog/nginx.conf /etc/nginx/sites-available/jordifierro.dev
+sudo rm /etc/nginx/sites-enabled/jordifierro.dev
+sudo ln -s /etc/nginx/sites-available/jordifierro.dev /etc/nginx/sites-enabled/
 sudo systemctl reload nginx
 ```
 
-And finally build and deploy the static files under `/var/www/jordifierro.com`
+And finally build and deploy the static files under `/var/www/jordifierro.dev`
 using a docker jekyll images and volumes:
 ```bash
 git clone https://github.com/jordifierro/jordifierro.github.io.git
@@ -61,9 +61,9 @@ cd jordifierro.github.io
 sudo mkdir -p .jekyll-cache _site
 sudo docker run --rm -t --volume="$PWD:/srv/jekyll" --env JEKYLL_ENV=production jekyll/jekyll:3.8 bash -c "jekyll build --trace"
 cd ..
-sudo mkdir -p /var/www/jordifierro.com/html
-sudo chown -R $USER:$USER /var/www/jordifierro.com/html
-sudo mv jordifierro.github.io/_site/* /var/www/jordifierro.com/html/
+sudo mkdir -p /var/www/jordifierro.dev/html
+sudo chown -R $USER:$USER /var/www/jordifierro.dev/html
+sudo mv jordifierro.github.io/_site/* /var/www/jordifierro.dev/html/
 ```
 
 ## Pachatary
@@ -259,7 +259,7 @@ defaults
 
 frontend jordifierro
         bind SERVER_IP:80
-        bind SERVER_IP:443 ssl crt /etc/haproxy/certs/jordifierro.com.pem crt /etc/haproxy/certs/pachatary.com.pem
+        bind SERVER_IP:443 ssl crt /etc/haproxy/certs/jordifierro.dev.pem crt /etc/haproxy/certs/pachatary.com.pem
         redirect scheme https code 301 if !{ ssl_fc }
         mode http
         option forwardfor header X-Real-IP
@@ -281,7 +281,7 @@ backend pachatary_api
 ```
 
 This HAProxy config has 2 paths.
-The default one redirects to system Nginx (jordifierro.com),
+The default one redirects to system Nginx (jordifierro.dev),
 where each server config will serve appropriate files.
 The other is for pachatary.com domain.
 It load balances the requests to the two different docker containers
@@ -293,7 +293,7 @@ with the desired format:
 ```bash
 sudo mkdir -p /etc/haproxy/certs
 sudo cat /etc/letsencrypt/live/pachatary.com/fullchain.pem /etc/letsencrypt/live/pachatary.com/privkey.pem > /etc/haproxy/certs/pachatary.com.pem
-sudo cat /etc/letsencrypt/live/jordifierro.com/fullchain.pem /etc/letsencrypt/live/jordifierro.com/privkey.pem > /etc/haproxy/certs/jordifierro.com.pem
+sudo cat /etc/letsencrypt/live/jordifierro.dev/fullchain.pem /etc/letsencrypt/live/jordifierro.dev/privkey.pem > /etc/haproxy/certs/jordifierro.dev.pem
 ```
 
 Let's restart HAProxy to apply changes:
@@ -304,5 +304,5 @@ systemctl restart haproxy
 To get more information about all the setup you can visit the
 [server-setup](https://github.com/jordifierro/server-setup) Github repository.
 
-On the [last post](https://jordifierro.com/building-my-own-infrastructure-4)
+On the [last post](https://jordifierro.dev/building-my-own-infrastructure-4)
 I will explain how I use Jenkins to handle server tasks!
