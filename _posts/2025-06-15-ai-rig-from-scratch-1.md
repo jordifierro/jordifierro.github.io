@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building my first AI rig from scratch I"
+title:  "AI rig from scratch I"
 date:   2025-06-15 20:00:00 +0100
 categories: development
 comments: true
@@ -8,7 +8,7 @@ comments: true
 
 ![AI rig](/assets/images/rig_aio_2.jpg)
 
-# Building my first AI rig from scratch
+# AI rig from scratch I
 
 I've recently started my journey into the world of Artificial Intelligence,
 and it didn't take long for my curiosity to shift towards the hardware.
