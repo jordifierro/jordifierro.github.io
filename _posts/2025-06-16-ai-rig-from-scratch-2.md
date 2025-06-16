@@ -55,17 +55,17 @@ to enter the BIOS. There were two critical settings to adjust:
 **RAM profile**: I enabled the AMD EXPO I profile to ensure my
 Patriot Viper Venom RAM was running at its rated speed of 6000MHz.
 
-![AMD EXPO ram profile](/assets/images/rig_bios_2.jpg)
+![AMD EXPO ram profile](/assets/images/rig_bios_2.png)
 
 **Fan curve**: I switched the fan settings from "Silent" to "Standard"
 to prioritize cooling over absolute silence, which is a sensible
 trade-off for a high-performance machine.
 
-![Fan settings](/assets/images/rig_bios_1.jpg)
+![Fan settings](/assets/images/rig_bios_1.png)
 
 After saving the changes and exiting the BIOS, the foundational setup was complete.
 
-![Save changes and exit](/assets/images/rig_bios_3.jpg)
+![Save changes and exit](/assets/images/rig_bios_3.png)
 
 ## Step 2: Establishing connectivity (Wi-Fi and remote access)
 
