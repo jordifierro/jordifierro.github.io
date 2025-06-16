@@ -149,16 +149,18 @@ Tadaaaaa!
 ![AI rig from scratch](/assets/images/rig_finished_1.jpg)
 
 All that was left was to connect the main power supply, attach the WiFi antennas,
-and plug in a temporary screen and keyboard to install Ubuntu Server.
+and plug in a temporary screen and keyboard to
+start [software installation](https://jordifierro.dev/ai-rig-from-scratch-2).
 
 ### Bonus: An extra fan for peace of mind
 
-After installing the OS and running some thermal tests (more on that in the next post!),
+After installing the OS and running some
+[thermal tests](https://jordifierro.dev/ai-rig-from-scratch-2)
 I noticed that one of the SSD sensors was reporting high temperatures.
 To improve airflow, I decided to add another slim fan to the bottom of the case.
 
 The magnetic dust filter on the bottom made this incredibly easy.
-The Arctic P12 Slim fan even came with a Y-splitter cable, making the connection straightforward.
+The **Arctic P12 Slim** fan even came with a Y-splitter cable, making the connection straightforward.
 I did have to briefly remove the GPU to access the fan header, but it was no big deal.
 
 ![Second bottom fan](/assets/images/rig_second_fan_1.jpg)
